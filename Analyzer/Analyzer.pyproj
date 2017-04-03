@@ -23,6 +23,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Analyzer.py" />
+    <Compile Include="ui_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SWHear.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
